@@ -1,0 +1,253 @@
+ouput report:
+	
+
+example 1:
+			
+- | - | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 9
+
+
+- | - | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | X     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 5
+
+
+- | - | -     1 | 2 | 3
+- | O | -     4 | 5 | 6
+- | - | X     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 6
+
+
+- | - | -     1 | 2 | 3
+- | O | X     4 | 5 | 6
+- | - | X     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 9
+You can't go there. Go again.
+Choose a position from 1-9: 3
+
+
+- | - | O     1 | 2 | 3
+- | O | X     4 | 5 | 6
+- | - | X     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 7
+
+
+- | - | O     1 | 2 | 3
+- | O | X     4 | 5 | 6
+X | - | X     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 2
+
+
+- | O | O     1 | 2 | 3
+- | O | X     4 | 5 | 6
+X | - | X     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 8
+
+
+- | O | O     1 | 2 | 3
+- | O | X     4 | 5 | 6
+X | X | X     7 | 8 | 9
+
+
+X won.
+
+
+example 2:
+
+
+
+- | - | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 2
+
+
+- | X | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 3
+
+
+- | X | O     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 5
+
+
+- | X | O     1 | 2 | 3
+- | X | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 4
+
+
+- | X | O     1 | 2 | 3
+O | X | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 7
+
+
+- | X | O     1 | 2 | 3
+O | X | -     4 | 5 | 6
+X | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 6
+
+
+- | X | O     1 | 2 | 3
+O | X | O     4 | 5 | 6
+X | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 1
+
+
+X | X | O     1 | 2 | 3
+O | X | O     4 | 5 | 6
+X | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 9
+
+
+X | X | O     1 | 2 | 3
+O | X | O     4 | 5 | 6
+X | - | O     7 | 8 | 9
+
+
+O won.
+
+example 3:
+
+
+- | - | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 2
+
+
+- | X | -     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 3
+
+
+- | X | O     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 1
+
+
+X | X | O     1 | 2 | 3
+- | - | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 5
+
+
+X | X | O     1 | 2 | 3
+- | O | -     4 | 5 | 6
+- | - | -     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 9
+
+
+X | X | O     1 | 2 | 3
+- | O | -     4 | 5 | 6
+- | - | X     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 8
+
+
+X | X | O     1 | 2 | 3
+- | O | -     4 | 5 | 6
+- | O | X     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 6
+
+
+X | X | O     1 | 2 | 3
+- | O | X     4 | 5 | 6
+- | O | X     7 | 8 | 9
+
+
+O's turn.
+Choose a position from 1-9: 4
+
+
+X | X | O     1 | 2 | 3
+O | O | X     4 | 5 | 6
+- | O | X     7 | 8 | 9
+
+
+X's turn.
+Choose a position from 1-9: 1
+You can't go there. Go again.
+Choose a position from 1-9: 7
+
+
+X | X | O     1 | 2 | 3
+O | O | X     4 | 5 | 6
+X | O | X     7 | 8 | 9
+
+
+Tie.
